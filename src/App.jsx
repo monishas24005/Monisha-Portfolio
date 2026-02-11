@@ -169,8 +169,11 @@ const Contact = () => (
     <h2 className="text-3xl font-bold mb-8">Contact Me</h2>
     <div className="flex justify-center gap-10">
       <a href="mailto:monishas24005@gmail.com"><Mail /></a>
-      <Phone />
-      <a href="https://linkedin.com"><Linkedin /></a>
+      <div className="flex flex-col items-center">
+        <Phone /><p className="text-sm font-bold ">+91 90437 55274</p>
+      </div>
+      
+      <a href="https://www.linkedin.com/in/monisha-s-8bbb1a28a"><Linkedin /></a>
     </div>
   </section>
 );
